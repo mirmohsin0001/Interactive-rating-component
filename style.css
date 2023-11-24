@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+    font-family: overpass;
+    display: flex;
+    justify-content: center;
+    height: 100;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+    border-radius: 20px;
+
+    margin: 20% 20px 0 20px;
+    padding: 30px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.card img{
+    background-color: hsl(217, 23%, 53%);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card h1{
+    margin-top: 20px;
+}
+
+.card p{
+    margin: 10px 0;
+    color: hsl(217, 12%, 63%);
+    /* color: hsl(216, 12%, 54%); */
+}
+
+.card ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+    list-style: none;
+
+    margin: 30px 0;
+}
+
+.card ul li{
+    background-color:hsl(217, 23%, 53%);
+    border-radius: 50%;
+
+    text-decoration: none;
+    color: hsl(214, 19%, 93%);
+
+    padding: 15px 20px;
+}
+
+.card button{
+    background-color: rgb(255, 111, 0);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 25px;
+    box-shadow: none;
+}
+
+.card button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
